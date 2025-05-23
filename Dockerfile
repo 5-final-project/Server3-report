@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 포트 설정 (FastAPI 기본 포트는 8000, 예시에서는 8010)
-EXPOSE 8376
+EXPOSE 8377
 
 # 실행 명령
-CMD ["uvicorn", "action:app", "--host", "0.0.0.0", "--port", "8376"]
+CMD ["uvicorn", "action:app", "--host", "0.0.0.0", "--port", "8377"]
